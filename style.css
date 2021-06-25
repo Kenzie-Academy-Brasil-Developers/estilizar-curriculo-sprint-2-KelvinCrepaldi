@@ -1,5 +1,6 @@
 body{
 	font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+	background-color: #f3f3f3;
 }
 h1{
 	font-size: 1.4em;
@@ -100,6 +101,7 @@ h1{
 
 .sectionContent p{
 	margin-top: 20px;
+	color: #444444;
 }
 
 .sectionContent {
@@ -113,7 +115,7 @@ h1{
 }
 
 .subDetails{
-	color: #181818;
+	color: #444444;
 	font-style: italic;
 }
 
@@ -127,6 +129,7 @@ h1{
 }
 
 .keySkills li{
+	color: #444444;
 	display: inline-block;
 	width: 32%;
 }
