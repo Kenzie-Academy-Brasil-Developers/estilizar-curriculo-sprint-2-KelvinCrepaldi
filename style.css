@@ -1,27 +1,132 @@
+body{
+	font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+}
+h1{
+	font-size: 1.4em;
+	font-weight: lighter;
+}
 .clear {
 	clear: both;
+}
+
+#name, .sectionTitle, .sectionContent h2{
+	font-family: 'Rokkitt', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+#cv{
+	width: 850px;
+	margin: 50px auto 0;
+}
+
+.mainDetails{
+	height: 130px;
+
+	border-bottom: 2px #cf8a05 solid;
+	margin-bottom: 15px;
 }
 
 #headshot {
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+	padding-left: 50px;
+}
+
+#headshot img{
+	border-radius: 100px;
 }
 
 #name {
 	float: left;
 }
 
+#name h1{
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 40px;
+}
+
+#name h2{
+	font-weight: lighter;
+	margin-top: 0;
+	font-size: 33px;
+	margin-bottom: 0;
+}
+
 #contactDetails {
+	margin-right: 40px;
+	color:#444444;
 	float: right;
+}
+
+#contactDetails ul{
+	list-style: none;
+	margin-top:0;
+}
+
+#contactDetails ul li a {
+	color:#444444;
+	text-decoration: none;
+}
+
+#mainArea{
+	padding:50px;
+	padding-top:0;
+}
+
+.firstTitle h1{
+	margin-top: 0;
+	margin-inline-start: 0px;
+}
+
+#mainArea section article h2{
+	margin-bottom: 0px;
+}
+
+#mainArea section article p{
+	margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .sectionTitle {
 	float: left;
+	padding-left: 16px;
+	padding-right: 0;
 	width: 25%;
+	font-style: italic;
+	color: #cf8a05;
+}
+
+.sectionContent p{
+	margin-top: 20px;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+
+#mainArea section{
+	border-bottom: 1px #dedede solid;
+	padding-bottom: 15px;
+}
+
+.subDetails{
+	color: #181818;
+	font-style: italic;
+}
+
+.subDetails{
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.keySkills{
+	padding-left:0;
+}
+
+.keySkills li{
+	display: inline-block;
+	width: 32%;
 }
