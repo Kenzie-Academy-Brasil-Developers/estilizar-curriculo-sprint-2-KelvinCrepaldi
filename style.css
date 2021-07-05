@@ -39,6 +39,7 @@ h1{
 
 #name {
 	float: left;
+	
 }
 
 #name h1{
@@ -46,6 +47,7 @@ h1{
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 40px;
+	color:#444444;
 }
 
 #name h2{
@@ -53,11 +55,12 @@ h1{
 	margin-top: 0;
 	font-size: 33px;
 	margin-bottom: 0;
+	color:#444444;
 }
 
 #contactDetails {
 	margin-right: 40px;
-	color:#444444;
+	color: #181818;
 	float: right;
 }
 
@@ -67,7 +70,7 @@ h1{
 }
 
 #contactDetails ul li a {
-	color:#444444;
+	color: #181818;
 	text-decoration: none;
 }
 
@@ -99,14 +102,22 @@ h1{
 	color: #cf8a05;
 }
 
-.sectionContent p{
+.sectionContent .text{
 	margin-top: 20px;
-	color: #444444;
+	color: #181818;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+
+.sectionContent h2{
+	color:#444444;
+}
+
+.sectionContent ul li{
+	color: #181818;
 }
 
 #mainArea section{
